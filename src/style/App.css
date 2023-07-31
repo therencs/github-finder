@@ -183,8 +183,8 @@ section.repos{
 
 .repository{
   background-color: #395b64;
-  padding:18px 24px 0 24px;
-  height:78px;
+  padding:18px 24px 18px 24px;
+  min-height:50px;
   border-radius:12px;
   display:flex;
   margin:8px 0px;
@@ -225,4 +225,9 @@ section.repos{
 
 .repos ul{
   padding-bottom:1px;
+}
+
+.details-left{
+  background-color:red;
+  width:120px;
 }
